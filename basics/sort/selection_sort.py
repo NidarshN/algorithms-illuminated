@@ -1,6 +1,3 @@
-import os
-
-
 def stable_iterative_selection(nums):
     n = len(nums)
     for i in range(n):
@@ -34,7 +31,7 @@ def recursive_selection(nums, n, index=0):
 
 
 if __name__ == "__main__":
-    # print(stable_iterative_selection([4, 5, 3, 2, 4, 1]))
+    print(stable_iterative_selection([4, 5, 3, 2, 4, 1]))
     arr = [4, 5, 3, 2, 4, 1]
     n = len(arr)
     recursive_selection(arr, n)
