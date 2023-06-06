@@ -3,7 +3,7 @@ def stable_iterative_selection(nums):
     for i in range(n):
         pos = i
         for j in range(i+1, n):
-            if (nums[j] < nums[pos] or j < pos):
+            if (nums[j] < nums[pos]):
                 pos = j
         key = nums[pos]
         while pos > i:
